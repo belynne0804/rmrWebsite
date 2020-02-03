@@ -1,5 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
- * {
+
+
+* {
+    box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-}
+
+  }
+  :root {
+    --unit-1: 4px;
+    --elevation-1: 1;
+    --min-height-carousel: calc(var(--unit-1) * 50);
+    --color-brand-1: black;
+  }
+  
+  body {
+    margin: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    padding: var(--unit-1);
+  }
+  

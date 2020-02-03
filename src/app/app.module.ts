@@ -3,13 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainComponent } from './main/main.component';
-import { SidenavComponent } from './sidenav/sidenav.component';
 
+import { MainPageComponent } from './main-page/main-page.component';
+import { SidenavComponent } from './sidenav/sidenav.component'
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent,
+    MainPageComponent,
     SidenavComponent
   ],
   imports: [
